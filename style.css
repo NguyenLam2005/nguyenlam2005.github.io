@@ -1,0 +1,152 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Nền */
+body{
+    background:white;
+    color:#222;
+}
+
+/* Layout chính */
+.main{
+    display:flex;
+    max-width:1200px;
+    margin:60px auto;
+    gap:40px;
+}
+
+/* LEFT SIDE */
+.left_content{
+    width:35%;
+    text-align:center;
+}
+
+/* Tên */
+.name-profile{
+    margin-bottom:20px;
+    font-size:28px;
+}
+
+/* Avatar */
+.left_content img{
+    width:230px;
+    height:230px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+}
+
+/* Link profile */
+.link-profile{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-bottom:20px;
+}
+
+.link-profile a{
+    text-decoration:none;
+    color:#1a73e8;
+    font-weight:600;
+}
+
+.link-profile a:hover{
+    text-decoration:underline;
+}
+
+/* About */
+.about_me{
+    font-size:15px;
+    color:#555;
+    line-height:1.6;
+}
+
+/* RIGHT SIDE */
+.right_content{
+    width:65%;
+}
+
+/* Header */
+.headder{
+    margin-bottom:30px;
+}
+
+.head_content{
+    font-size:32px;
+    font-weight:700;
+}
+
+/* Project menu */
+.project_menu{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+/* Project card */
+.project_card{
+    border:1px solid #e5e5e5;
+    border-radius:8px;
+    padding:25px;
+    transition:0.2s;
+}
+
+.project_card:hover{
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* Title */
+.title_project h1{
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+/* Description */
+.describe_project{
+    font-size:15px;
+    color:#444;
+    line-height:1.7;
+}
+
+/* Hình RAG */
+.rag_image{
+    margin-top:20px;
+    text-align:center;
+}
+
+.rag_image img{
+    width:100%;
+    max-width:500px;
+    border-radius:6px;
+    border:1px solid #eee;
+}
+
+/* Project links */
+.project_links{
+    margin-top:20px;
+}
+
+/* Github link */
+.project_links a{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    text-decoration:none;
+    color:#1a73e8;
+    font-weight:600;
+}
+
+.project_links a:hover{
+    text-decoration:underline;
+}
+
+/* Github icon */
+.project_links img{
+    width:20px;
+    height:20px;
+}
